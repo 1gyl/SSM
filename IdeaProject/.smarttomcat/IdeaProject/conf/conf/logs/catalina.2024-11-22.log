@@ -1,0 +1,214 @@
+22-Nov-2024 13:39:46.012 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.96
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Oct 3 2024 19:44:30 UTC
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.96.0
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_131\jre
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_131-b11
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\25710\Documents\apache-tomcat-9.0.96\conf
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\25710\Documents\apache-tomcat-9.0.96
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\25710\Documents\apache-tomcat-9.0.96
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\25710\Documents\apache-tomcat-9.0.96\conf
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\25710\Documents\apache-tomcat-9.0.96\conf\temp
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\25710\Documents\apache-tomcat-9.0.96\conf\conf\logging.properties
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.4\lib\idea_rt.jar=61511:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.4\bin
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[1.3.1]。
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+22-Nov-2024 13:39:46.028 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+22-Nov-2024 13:39:46.059 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.14 4 Jun 2024]
+22-Nov-2024 13:39:46.356 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+22-Nov-2024 13:39:46.372 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[576]毫秒内初始化
+22-Nov-2024 13:39:46.403 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+22-Nov-2024 13:39:46.403 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.96]
+22-Nov-2024 13:39:46.403 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[C:\Users\25710\Documents\apache-tomcat-9.0.96\conf\conf\Catalina\localhost\IdeaProject1.xml]。
+22-Nov-2024 13:39:46.450 严重 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[C:\Users\25710\Documents\apache-tomcat-9.0.96\conf\conf\Catalina\localhost\IdeaProject1.xml]时出错
+	java.lang.IllegalStateException: 启动子级时出错
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: 无法启动组件[org.apache.catalina.webresources.StandardRoot@52525845]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4118)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\25710\Documents\IdeaProject1\src\main\webapp] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 41 more
+22-Nov-2024 13:39:46.466 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[C:\Users\25710\Documents\apache-tomcat-9.0.96\conf\conf\Catalina\localhost\IdeaProject1.xml]的部署已在[63]ms内完成
+22-Nov-2024 13:39:46.466 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+22-Nov-2024 13:39:46.559 信息 [main] org.apache.catalina.startup.Catalina.start [181]毫秒后服务器启动
+22-Nov-2024 13:40:30.903 信息 [Thread-2] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+22-Nov-2024 13:40:31.026 信息 [Thread-2] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+22-Nov-2024 13:40:31.026 信息 [Thread-2] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+22-Nov-2024 13:40:31.031 信息 [Thread-2] org.apache.coyote.AbstractProtocol.destroy 正在销毁协议处理器 ["http-nio-8080"]
+22-Nov-2024 13:40:31.031 严重 [Thread-2] org.apache.catalina.core.StandardContext.resourcesStop 停止静态资源时出错
+	org.apache.catalina.LifecycleException: 无效的生命周期转变被尝试 [before_stop]) 组件 [org.apache.catalina.webresources.DirResourceSet@4e991173] 状态 [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.core.StandardContext.resourcesStop(StandardContext.java:4142)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4716)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:994)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:811)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:955)
+22-Nov-2024 13:40:31.031 严重 [Thread-2] org.apache.catalina.util.LifecycleBase.destroy 在失败组件[org.apache.catalina.webresources.StandardRoot@52525845]上调用Stop()以触发清理，但也失败了
+	org.apache.catalina.LifecycleException: 无效的生命周期转变被尝试 [before_stop]) 组件 [org.apache.catalina.webresources.DirResourceSet@4e991173] 状态 [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.StandardContext.destroyInternal(StandardContext.java:4784)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:994)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:811)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:955)
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.96
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Oct 3 2024 19:44:30 UTC
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.96.0
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_131\jre
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_131-b11
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\25710\Documents\apache-tomcat-9.0.96\conf
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\25710\Documents\apache-tomcat-9.0.96
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\25710\Documents\apache-tomcat-9.0.96
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\25710\Documents\apache-tomcat-9.0.96\conf
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\25710\Documents\apache-tomcat-9.0.96\conf\temp
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\25710\Documents\apache-tomcat-9.0.96\conf\conf\logging.properties
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.4\lib\idea_rt.jar=61584:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.4\bin
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[1.3.1]。
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+22-Nov-2024 13:40:34.682 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+22-Nov-2024 13:40:34.698 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.14 4 Jun 2024]
+22-Nov-2024 13:40:34.952 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+22-Nov-2024 13:40:34.967 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[472]毫秒内初始化
+22-Nov-2024 13:40:34.998 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+22-Nov-2024 13:40:34.998 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.96]
+22-Nov-2024 13:40:34.998 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[C:\Users\25710\Documents\apache-tomcat-9.0.96\conf\conf\Catalina\localhost\IdeaProject1.xml]。
+22-Nov-2024 13:40:35.030 严重 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[C:\Users\25710\Documents\apache-tomcat-9.0.96\conf\conf\Catalina\localhost\IdeaProject1.xml]时出错
+	java.lang.IllegalStateException: 启动子级时出错
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: 无法启动组件[org.apache.catalina.webresources.StandardRoot@52525845]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4118)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\25710\Documents\IdeaProject1\src\main\webapp] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 41 more
+22-Nov-2024 13:40:35.061 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[C:\Users\25710\Documents\apache-tomcat-9.0.96\conf\conf\Catalina\localhost\IdeaProject1.xml]的部署已在[63]ms内完成
+22-Nov-2024 13:40:35.061 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+22-Nov-2024 13:40:35.155 信息 [main] org.apache.catalina.startup.Catalina.start [183]毫秒后服务器启动
+22-Nov-2024 13:40:42.465 信息 [Thread-2] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
